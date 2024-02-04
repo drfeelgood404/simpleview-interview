@@ -37,8 +37,17 @@ function DataTable({ apiUrl }) {
 function App() {
   return (
     <div>
+      <div className="text">
+        <h2>Departments Table</h2>
+      </div>
       <DataTable apiUrl="http://localhost:4000/api/departments" />
+      <div className="text">
+        <h2>Employees Table</h2>
+      </div>
       <DataTable apiUrl="http://localhost:4000/api/employees" />
+      <div className="text">
+        <h2>Highest-Paid Employees by Department</h2>
+      </div>
       <DataTable apiUrl="http://localhost:4000/api/task" />
     </div>
   );
