@@ -3,7 +3,7 @@
 ## Import SQL Database
 `mysql -u root -p simpleview < simpleview_backup.sql`
 
-## Create backend/.env File
+## Create and Configure backend/.env File
 ```
 DB_HOST=localhost
 DB_USER=root
@@ -17,3 +17,6 @@ DB_NAME=simpleview
 # Usage
 ## Start the Application
 `npm start`
+
+# Application Screenshot
+![Application Screenshot](screenshot.png?raw=true "Application Screenshot")
