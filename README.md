@@ -1,7 +1,7 @@
 # Installation
 
 ## Import SQL Database
-`mysql -u username -p simpleview < simpleview_backup.sql;`
+`mysql -u root -p simpleview < simpleview_backup.sql`
 
 ## Create backend/.env File
 ```
